@@ -1,8 +1,7 @@
-
-/* Your CSS Code here. */
 .holder {
   display: flex;           /* enable flexbox */
   flex-wrap: wrap;         /* allow items to move to next row if needed */
-  justify-content: space-between; /* evenly distribute items in a row */
+  justify-content: space-evenly; /* evenly distribute items including space at the ends */
   gap: 20px;               /* optional spacing between items */
 }
+
